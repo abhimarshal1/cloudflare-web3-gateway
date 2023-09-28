@@ -6,7 +6,7 @@ Creates/Updates dnslink for a web3 gateway
 ```yml
 - name: Update DNS Link via Cloudflare
   id: cloudflare-dnslink
-  uses: resource-network/cloudflare-update-dnslink@v2
+  uses: abhimarshal1/cloudflare-web3-gateway
   with:
     token: ${{ secrets.CLOUDFLARE_TOKEN }}
     zone: ${{ secrets.CLOUDFLARE_ZONE }}
