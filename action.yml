@@ -1,0 +1,25 @@
+name: 'Cloudflare Web3 Gateway'
+description: 'Creates/Updates dnslink for a web3 gateway'
+author: "Abhishek Upadhyay"
+
+inputs:
+  token:
+    description: "Cloudflare API token"
+    required: true
+  zone:
+    default: "Cloudflare zone"
+    required: true
+  hostname:
+    description: 'Cloudflare hostname to be updated'
+    required: true
+  dnslink:
+    description: "ipfs/ipns path"
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'index.js'
+
+branding:
+  icon: "cloud"
+  color: "orange"

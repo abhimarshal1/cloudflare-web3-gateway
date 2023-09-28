@@ -1,0 +1,29 @@
+{
+  "name": "cloudflare-web3-gateway",
+  "version": "1.0.0",
+  "description": "Creates/Updates dnslink for a web3 gateway",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhimarshal1/cloudflare-web3-gateway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhimarshal1/cloudflare-web3-gateway/issues"
+  },
+  "homepage": "https://github.com/abhimarshal1/cloudflare-web3-gateway#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^5.1.1",
+    "axios": "^1.5.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
