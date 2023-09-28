@@ -10,7 +10,7 @@ Creates/Updates dnslink for a web3 gateway
   with:
     token: ${{ secrets.CLOUDFLARE_TOKEN }}
     zone: ${{ secrets.CLOUDFLARE_ZONE }}
-    hostname: "ipfs.example.com"
+    hostname: 'ipfs.example.com'
     dnslink: 'ipns/ipns.example.com' # you can also use 'ipfs/Qm....../'
 ```
 
