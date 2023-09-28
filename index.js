@@ -10,4 +10,4 @@ async function main () {
   }
 }
 
-module.exports = main
+main().catch(e => console.log('Error:', e))
