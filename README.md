@@ -14,4 +14,4 @@ Creates/Updates dnslink for a web3 gateway
     dnslink: 'ipns/ipns.example.com' # you can also use 'ipfs/Qm....../'
 ```
 
-Note: Please make sure the token has all the necessary permissions.
+Note: Please make sure the token has all the necessary permissions (Zone DNS and web3).
